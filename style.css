@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #efefef;
+    font-family:sans-serif ;
+}
+
+.profile-img{
+    width: 40%;
+    float: right;
+
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+
+}
+.about{
+    margin-left:50px; ;
+}
+.profile-info{
+    width: 60%;
+    height: 100vh;
+    float:left ;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+/* .profile-info::-webkit-scrollbar{
+    width: 0px;
+
+} */
+.profile-info h1{
+    margin-top:50px;
+    margin-bottom:30px ;
+}
+
+.social-media img{
+    height: 50px;
+    margin-right: 15px;
+}
+
+.social-media{
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.profile-info h2{
+    margin-top: 50px;
+    margin-bottom:15px ;
+}
+
+table{
+	width: 80%
+}
+
+thead{
+  background:rgb(85, 125, 255);
+}
+tbody tr:nth-child(even){
+	background-color:#ddd;
+}
+
+tbody td{
+  text-align: center;
+  border-radius: 10px;
+	border:5px solid #5d6d7e;
+}
+
+.table-response{
+	overflow-x:auto; 
+}
+
+
+
+.expertise img{
+    height: 8%;
+    margin: 5px;
+}
+.expertise{
+    display:inline-block ;
+    width: 29%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73,214,0.18);
+    background: #fff;
+}
+.expertise small{
+    padding-top:10px ;
+    display: block;
+}
+.MyWorkshop img{
+    width:31%;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.form-box{
+    margin-top: 30px;
+}
+.input-group input{
+    width: 45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2px;
+    display:inline-block;
+    background: #fff;
+}
+.text-area textarea{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2px;
+    background: #fff;
+}
+.submit-btn{
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px;
+    margin: 2px;
+    background: rgb(34, 211, 255);
+    cursor: pointer;
+    color: #fff;}
+.contact img{
+    width: 20px;
+    margin: -5px 10px;
+}
+.contact span{
+    margin: 3%;
+}
+.contact{
+    margin: 5% 0 5 25%;
+    width: 65%;
+}
+.copyright{
+    text-align: center;
+    margin-bottom:20px;
+}
+
+@media only screen and (max-width:900px){
+    .profile-info{
+        width: 100%;
+        overflow: inherit;
+    }
+    .profile-img{
+        width: 100%;
+    }
+    .expertise{
+        width: 95%;
+        margin-bottom: 10%;
+    }
+    .expertise img{
+        height: 8%;
+        margin: 10% 0;
+    }
+    .MyWorkshop img{
+        width: 47%;
+    }
+    span{
+        display: block;
+    }
+}
+
+.awesome {
+    
+    font-family: futura;
+    font-style: bold;
+    
+    width:100%;
+    
+   /* margin: 0 auto;*/
+    text-align: center;
+    
+    color:#313131;
+    font-size:40px;
+    font-weight: bold;
+    /*position: absolute;*/
+    -webkit-animation:colorchange 15s infinite alternate;
+    
+    
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+
+    5% {
+      
+      color: violet;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: red;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: yellow;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }
+
+  .main_title {
+    text-align: center;
+    padding: 60px 0px;
+  }
+  
+  .main_title h2 {
+    font-size: 30px;
+    font-family: "Bree Serif", serif;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #222222;
+    display: inline-block;
+    line-height: 58px;
+    padding: 0px 23px;
+  }
+
+
+.inner img{
+transition: all 2.5s ease;
+
+}
+
+.inner:hover img{
+transform: scale(2.0);
